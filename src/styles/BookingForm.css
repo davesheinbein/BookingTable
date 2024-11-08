@@ -11,7 +11,8 @@
   margin-bottom: 8px;
   font-size: 1rem;
   font-weight: 600;
-  width: 400px;
+  width: 100%;
+  min-width: 400px;
   text-align: left;
 }
 .booking-form select {

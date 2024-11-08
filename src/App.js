@@ -29,9 +29,15 @@ function App() {
 					onBook={handleBooking}
 				/>
 			</main>
-			{bookingData && (
-				<p>Booking Confirmed: {bookingData.name}</p>
-			)}
+			<div className='footer'>
+				{bookingData && (
+					<p>
+						- Booking Confirmed -
+						<br />
+						{bookingData.name}
+					</p>
+				)}
+			</div>
 		</div>
 	);
 }
