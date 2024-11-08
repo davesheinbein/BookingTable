@@ -27,7 +27,7 @@
   margin: 0 auto;
 }
 .booking-form select:focus {
-  border-color: #333;
+  border-color: #f5ce13;
   outline: none;
 }
 .booking-form input {
@@ -43,13 +43,13 @@
   margin: 0 auto;
 }
 .booking-form input:focus {
-  border-color: #333;
+  border-color: #f5ce13;
   outline: none;
 }
 .booking-form button {
   width: 100%;
   padding: 10px;
-  background-color: #333;
+  background-color: #f5ce13;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -58,7 +58,7 @@
   transition: background-color 0.3s ease;
 }
 .booking-form button:hover {
-  background-color: #555;
+  background-color: #485e57;
 }
 .booking-form .error {
   color: #e63946;
